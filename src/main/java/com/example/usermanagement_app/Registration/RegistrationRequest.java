@@ -10,6 +10,11 @@ import lombok.ToString;
 @EqualsAndHashCode
 @ToString
 
+
+/*
+Registration requirements
+
+ */
 public class RegistrationRequest {
     private final String email;
     private final String password;
@@ -21,3 +26,4 @@ public class RegistrationRequest {
 
 
 //trying a commit message
+
